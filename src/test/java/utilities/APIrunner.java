@@ -66,5 +66,7 @@ public class APIrunner {
         }
         return customResponse;
     }
-
+public static Response getResponse(){
+        return response;
+}
 }

@@ -27,12 +27,12 @@ public class Etsy_Steps {
         etsyHomePage.searchButton.click();
     }
 
-    @Then("User sees {string} is in the title")
-    public void user_sees_is_in_the_title(String string) {
-        String actualTitle = Driver.getDriver().getTitle();
-        String expectedTitle = string + " | Etsy";
-
-        Assert.assertTrue(actualTitle.equalsIgnoreCase("someTile"));
-
-    }
+//    @Then("User sees {string} is in the title")
+//    public void user_sees_is_in_the_title(String string) {
+//        String actualTitle = Driver.getDriver().getTitle();
+//        String expectedTitle = string + " | Etsy";
+//
+//        Assert.assertTrue(actualTitle.equalsIgnoreCase("Wooden Spoon"));
+//
+//    }
 }
