@@ -7,6 +7,8 @@ import utilities.Driver;
 
 public class EtsyHomePage {
 
+
+
     public EtsyHomePage(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
@@ -16,5 +18,6 @@ public class EtsyHomePage {
 
     @FindBy(xpath = "//button[@value='Search']")
     public WebElement searchButton;
+
 
 }
